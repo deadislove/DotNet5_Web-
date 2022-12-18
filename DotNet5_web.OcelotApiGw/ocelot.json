@@ -1,0 +1,30 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Demo",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 48444
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1/Demo",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "10s",
+        "PeriodTimespan": 10,
+        "Limit": 3
+      },
+      "FileCacheOptions": {
+        "TtlSeconds": 5,
+        "Region": "democaching"
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:24898"
+  }
+}

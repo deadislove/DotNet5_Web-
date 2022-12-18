@@ -1,0 +1,95 @@
+﻿2022-12-04T16:29:09.6557816Z -> Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-12-04T16:29:09.8541404Z -> Entity Framework Core 5.0.17 initialized 'DemoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled 
+2022-12-04T16:29:09.9785438Z -> Compiling query expression: 'DbSet<Enterprise_MVC_Core>()'
+2022-12-04T16:29:10.2582222Z -> Generated query execution expression: 'queryContext => new SingleQueryingEnumerable<Enterprise_MVC_Core>(    (RelationalQueryContext)queryContext,     RelationalCommandCache.SelectExpression(        Projection Mapping:            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Enterprise_MVC_Core.ID (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Enterprise_MVC_Core.Age (Nullable<int>), 1], [Property: Enterprise_MVC_Core.Name (string) Required, 2], }        SELECT e.ID, e.Age, e.Name        FROM Enterprise_MVC_Core AS e),     Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Enterprise_MVC_Core>,     DotNet5_web.Infra.DBContext.DemoDbContext,     False,     False)'
+2022-12-04T16:29:10.3863556Z -> Creating DbCommand for 'ExecuteReader'.
+2022-12-04T16:29:10.3972200Z -> Created DbCommand for 'ExecuteReader' (81ms).
+2022-12-04T16:29:10.4052908Z -> Opening connection to database 'Test' on server '.\'.
+2022-12-04T16:29:11.0900256Z -> Opened connection to database 'Test' on server '.\'.
+2022-12-04T16:29:11.1005998Z -> Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']SELECT [e].[ID], [e].[Age], [e].[Name]FROM [Enterprise_MVC_Core] AS [e]
+2022-12-04T16:29:11.1880807Z -> Executed DbCommand (88ms) [Parameters=[], CommandType='Text', CommandTimeout='30']SELECT [e].[ID], [e].[Age], [e].[Name]FROM [Enterprise_MVC_Core] AS [e]
+2022-12-04T16:29:11.2736654Z -> Context 'DemoDbContext' started tracking 'Enterprise_MVC_Core' entity with key '{ID: 1}'.
+2022-12-04T16:29:11.3381998Z -> Context 'DemoDbContext' started tracking 'Enterprise_MVC_Core' entity with key '{ID: 2}'.
+2022-12-04T16:29:11.3385257Z -> Context 'DemoDbContext' started tracking 'Enterprise_MVC_Core' entity with key '{ID: 3}'.
+2022-12-04T16:29:11.3468339Z -> A data reader was disposed.
+2022-12-04T16:29:11.3506771Z -> Closing connection to database 'Test' on server '.\'.
+2022-12-04T16:29:11.3600611Z -> Closed connection to database 'Test' on server '.\'.
+2022-12-04T16:29:11.3791625Z -> 'DemoDbContext' disposed.
+2022-12-04T16:34:45.2685435Z -> Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-12-04T16:34:45.4986461Z -> Entity Framework Core 5.0.17 initialized 'DemoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled 
+2022-12-04T16:34:46.0662957Z -> Compiling query expression: 'DbSet<Enterprise_MVC_Core>()'
+2022-12-04T16:34:46.3785145Z -> Generated query execution expression: 'queryContext => new SingleQueryingEnumerable<Enterprise_MVC_Core>(    (RelationalQueryContext)queryContext,     RelationalCommandCache.SelectExpression(        Projection Mapping:            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Enterprise_MVC_Core.ID (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Enterprise_MVC_Core.Age (Nullable<int>), 1], [Property: Enterprise_MVC_Core.Name (string) Required, 2], }        SELECT e.ID, e.Age, e.Name        FROM Enterprise_MVC_Core AS e),     Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Enterprise_MVC_Core>,     DotNet5_web.Infra.DBContext.DemoDbContext,     False,     False)'
+2022-12-04T16:34:46.4757259Z -> Creating DbCommand for 'ExecuteReader'.
+2022-12-04T16:34:46.4825864Z -> Created DbCommand for 'ExecuteReader' (58ms).
+2022-12-04T16:34:46.4886781Z -> Opening connection to database 'Test' on server '.\'.
+2022-12-04T16:34:46.9269009Z -> Opened connection to database 'Test' on server '.\'.
+2022-12-04T16:34:46.9337991Z -> Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']SELECT [e].[ID], [e].[Age], [e].[Name]FROM [Enterprise_MVC_Core] AS [e]
+2022-12-04T16:34:46.9725346Z -> Executed DbCommand (39ms) [Parameters=[], CommandType='Text', CommandTimeout='30']SELECT [e].[ID], [e].[Age], [e].[Name]FROM [Enterprise_MVC_Core] AS [e]
+2022-12-04T16:34:47.0365844Z -> Context 'DemoDbContext' started tracking 'Enterprise_MVC_Core' entity with key '{ID: 1}'.
+2022-12-04T16:34:47.0889213Z -> Context 'DemoDbContext' started tracking 'Enterprise_MVC_Core' entity with key '{ID: 2}'.
+2022-12-04T16:34:47.0891677Z -> Context 'DemoDbContext' started tracking 'Enterprise_MVC_Core' entity with key '{ID: 3}'.
+2022-12-04T16:34:47.0978953Z -> A data reader was disposed.
+2022-12-04T16:34:47.1014331Z -> Closing connection to database 'Test' on server '.\'.
+2022-12-04T16:34:47.1100516Z -> Closed connection to database 'Test' on server '.\'.
+2022-12-04T16:34:47.1513929Z -> Creating DbCommand for 'ExecuteReader'.
+2022-12-04T16:34:47.1514138Z -> Created DbCommand for 'ExecuteReader' (0ms).
+2022-12-04T16:34:47.1514474Z -> Opening connection to database 'Test' on server '.\'.
+2022-12-04T16:34:47.1524905Z -> Opened connection to database 'Test' on server '.\'.
+2022-12-04T16:34:47.1525214Z -> Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']SELECT [e].[ID], [e].[Age], [e].[Name]FROM [Enterprise_MVC_Core] AS [e]
+2022-12-04T16:34:47.1578880Z -> Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']SELECT [e].[ID], [e].[Age], [e].[Name]FROM [Enterprise_MVC_Core] AS [e]
+2022-12-04T16:34:47.1651807Z -> A data reader was disposed.
+2022-12-04T16:34:47.1652162Z -> Closing connection to database 'Test' on server '.\'.
+2022-12-04T16:34:47.1652466Z -> Closed connection to database 'Test' on server '.\'.
+2022-12-04T16:34:47.1770216Z -> 'DemoDbContext' disposed.
+2022-12-04T16:38:11.7751759Z -> Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-12-04T16:38:11.8784172Z -> Entity Framework Core 5.0.17 initialized 'DemoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled 
+2022-12-04T16:38:30.3597837Z -> Compiling query expression: 'DbSet<Enterprise_MVC_Core>()'
+2022-12-04T16:38:30.4991598Z -> Generated query execution expression: 'queryContext => new SingleQueryingEnumerable<Enterprise_MVC_Core>(    (RelationalQueryContext)queryContext,     RelationalCommandCache.SelectExpression(        Projection Mapping:            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Enterprise_MVC_Core.ID (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Enterprise_MVC_Core.Age (Nullable<int>), 1], [Property: Enterprise_MVC_Core.Name (string) Required, 2], }        SELECT e.ID, e.Age, e.Name        FROM Enterprise_MVC_Core AS e),     Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Enterprise_MVC_Core>,     DotNet5_web.Infra.DBContext.DemoDbContext,     False,     False)'
+2022-12-04T16:38:30.5559182Z -> Creating DbCommand for 'ExecuteReader'.
+2022-12-04T16:38:30.5606792Z -> Created DbCommand for 'ExecuteReader' (36ms).
+2022-12-04T16:38:30.5642861Z -> Opening connection to database 'Test' on server '.\'.
+2022-12-04T16:38:30.8423050Z -> Opened connection to database 'Test' on server '.\'.
+2022-12-04T16:38:30.8473976Z -> Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']SELECT [e].[ID], [e].[Age], [e].[Name]FROM [Enterprise_MVC_Core] AS [e]
+2022-12-04T16:38:30.8716473Z -> Executed DbCommand (25ms) [Parameters=[], CommandType='Text', CommandTimeout='30']SELECT [e].[ID], [e].[Age], [e].[Name]FROM [Enterprise_MVC_Core] AS [e]
+2022-12-04T16:38:30.8994652Z -> Context 'DemoDbContext' started tracking 'Enterprise_MVC_Core' entity with key '{ID: 1}'.
+2022-12-04T16:38:30.9222729Z -> Context 'DemoDbContext' started tracking 'Enterprise_MVC_Core' entity with key '{ID: 2}'.
+2022-12-04T16:38:30.9223665Z -> Context 'DemoDbContext' started tracking 'Enterprise_MVC_Core' entity with key '{ID: 3}'.
+2022-12-04T16:38:30.9255334Z -> A data reader was disposed.
+2022-12-04T16:38:30.9269780Z -> Closing connection to database 'Test' on server '.\'.
+2022-12-04T16:38:30.9304074Z -> Closed connection to database 'Test' on server '.\'.
+2022-12-04T16:38:30.9476911Z -> Creating DbCommand for 'ExecuteReader'.
+2022-12-04T16:38:30.9477044Z -> Created DbCommand for 'ExecuteReader' (0ms).
+2022-12-04T16:38:30.9477208Z -> Opening connection to database 'Test' on server '.\'.
+2022-12-04T16:38:30.9482070Z -> Opened connection to database 'Test' on server '.\'.
+2022-12-04T16:38:30.9482226Z -> Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']SELECT [e].[ID], [e].[Age], [e].[Name]FROM [Enterprise_MVC_Core] AS [e]
+2022-12-04T16:38:30.9501539Z -> Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']SELECT [e].[ID], [e].[Age], [e].[Name]FROM [Enterprise_MVC_Core] AS [e]
+2022-12-04T16:38:30.9533707Z -> A data reader was disposed.
+2022-12-04T16:38:30.9533966Z -> Closing connection to database 'Test' on server '.\'.
+2022-12-04T16:38:30.9534143Z -> Closed connection to database 'Test' on server '.\'.
+2022-12-04T16:38:30.9726723Z -> 'DemoDbContext' disposed.
+2022-12-04T16:46:32.5286426Z -> Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-12-04T16:46:32.7105161Z -> Entity Framework Core 5.0.17 initialized 'DemoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled 
+2022-12-04T16:46:33.2911510Z -> Compiling query expression: 'DbSet<Enterprise_MVC_Core>()'
+2022-12-04T16:46:33.5834512Z -> Generated query execution expression: 'queryContext => new SingleQueryingEnumerable<Enterprise_MVC_Core>(    (RelationalQueryContext)queryContext,     RelationalCommandCache.SelectExpression(        Projection Mapping:            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Enterprise_MVC_Core.ID (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Enterprise_MVC_Core.Age (Nullable<int>), 1], [Property: Enterprise_MVC_Core.Name (string) Required, 2], }        SELECT e.ID, e.Age, e.Name        FROM Enterprise_MVC_Core AS e),     Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Enterprise_MVC_Core>,     DotNet5_web.Infra.DBContext.DemoDbContext,     False,     False)'
+2022-12-04T16:46:33.6943102Z -> Creating DbCommand for 'ExecuteReader'.
+2022-12-04T16:46:33.7050678Z -> Created DbCommand for 'ExecuteReader' (54ms).
+2022-12-04T16:46:33.7116821Z -> Opening connection to database 'Test' on server '.\'.
+2022-12-04T16:46:34.2369539Z -> Opened connection to database 'Test' on server '.\'.
+2022-12-04T16:46:34.2472594Z -> Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']SELECT [e].[ID], [e].[Age], [e].[Name]FROM [Enterprise_MVC_Core] AS [e]
+2022-12-04T16:46:34.2990165Z -> Executed DbCommand (53ms) [Parameters=[], CommandType='Text', CommandTimeout='30']SELECT [e].[ID], [e].[Age], [e].[Name]FROM [Enterprise_MVC_Core] AS [e]
+2022-12-04T16:46:34.3663809Z -> Context 'DemoDbContext' started tracking 'Enterprise_MVC_Core' entity with key '{ID: 1}'.
+2022-12-04T16:46:34.4368694Z -> Context 'DemoDbContext' started tracking 'Enterprise_MVC_Core' entity with key '{ID: 2}'.
+2022-12-04T16:46:34.4371646Z -> Context 'DemoDbContext' started tracking 'Enterprise_MVC_Core' entity with key '{ID: 3}'.
+2022-12-04T16:46:34.4470045Z -> A data reader was disposed.
+2022-12-04T16:46:34.4523007Z -> Closing connection to database 'Test' on server '.\'.
+2022-12-04T16:46:34.4652820Z -> Closed connection to database 'Test' on server '.\'.
+2022-12-04T16:46:34.5179322Z -> Creating DbCommand for 'ExecuteReader'.
+2022-12-04T16:46:34.5179667Z -> Created DbCommand for 'ExecuteReader' (0ms).
+2022-12-04T16:46:34.5180158Z -> Opening connection to database 'Test' on server '.\'.
+2022-12-04T16:46:34.5195953Z -> Opened connection to database 'Test' on server '.\'.
+2022-12-04T16:46:34.5196508Z -> Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']SELECT [e].[ID], [e].[Age], [e].[Name]FROM [Enterprise_MVC_Core] AS [e]
+2022-12-04T16:46:34.5267213Z -> Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']SELECT [e].[ID], [e].[Age], [e].[Name]FROM [Enterprise_MVC_Core] AS [e]
+2022-12-04T16:46:34.5372851Z -> A data reader was disposed.
+2022-12-04T16:46:34.5373525Z -> Closing connection to database 'Test' on server '.\'.
+2022-12-04T16:46:34.5374003Z -> Closed connection to database 'Test' on server '.\'.
+2022-12-04T16:46:34.5505924Z -> 'DemoDbContext' disposed.

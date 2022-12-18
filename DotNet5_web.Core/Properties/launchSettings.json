@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "DotNet5_web.Core": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:23116;http://localhost:23117"
+    }
+  }
+}

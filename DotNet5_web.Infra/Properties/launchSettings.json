@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "DotNet5_web.Infra": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:23118;http://localhost:23119"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+2022-12-12T00:00:35.7875352+08:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-12-12T00:00:35.8111447+08:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-12-12T00:00:35.8260241+08:00  [INF] Content root path: "C:\Users\keyph\Documents\Projects_VisualStudio2022\DotNet5_web\DotNet5_web.API" (b5d60022)
+2022-12-12T00:00:42.6526050+08:00 4000017e-0004-fb00-b63f-84710c7967bb [INF] ClassFilter OnActionExecuting (d8039a86)
+2022-12-12T00:00:42.6681809+08:00 4000017e-0004-fb00-b63f-84710c7967bb [INF] Controller: Demo; Action: GetAll (30474228)
+2022-12-12T00:00:42.9381694+08:00 4000017e-0004-fb00-b63f-84710c7967bb [INF] Executing Demo controller - Get method without authorize. (0018e415)
+2022-12-12T00:00:46.1455659+08:00 4000017e-0004-fb00-b63f-84710c7967bb [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. (4007092b)
+2022-12-12T00:00:46.7202216+08:00 4000017e-0004-fb00-b63f-84710c7967bb [INF] ClassFilter OnActionExecuted (5ca5a71c)
+2022-12-12T00:00:46.7264878+08:00 4000017e-0004-fb00-b63f-84710c7967bb [INF] Http request info: (f7b303b3)
+2022-12-12T00:00:46.7346523+08:00 4000017e-0004-fb00-b63f-84710c7967bb [INF] Http URL: /api/Demo (fdda387b)
+2022-12-12T00:00:47.3477359+08:00 4000017e-0004-fb00-b63f-84710c7967bb [INF] Http Header: {
+  "Accept": [
+    "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+  ],
+  "Accept-Encoding": [
+    "gzip, deflate, br"
+  ],
+  "Accept-Language": [
+    "en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7"
+  ],
+  "Connection": [
+    "keep-alive"
+  ],
+  "Content-Length": [
+    "0"
+  ],
+  "Host": [
+    "localhost:48444"
+  ],
+  "User-Agent": [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+  ],
+  "sec-ch-ua": [
+    "\"Google Chrome\";v=\"107\", \"Chromium\";v=\"107\", \"Not=A?Brand\";v=\"24\""
+  ],
+  "sec-ch-ua-mobile": [
+    "?0"
+  ],
+  "sec-ch-ua-platform": [
+    "\"Windows\""
+  ],
+  "Upgrade-Insecure-Requests": [
+    "1"
+  ],
+  "Sec-Fetch-Site": [
+    "none"
+  ],
+  "Sec-Fetch-Mode": [
+    "navigate"
+  ],
+  "Sec-Fetch-User": [
+    "?1"
+  ],
+  "Sec-Fetch-Dest": [
+    "document"
+  ],
+  "traceparent": [
+    "00-a76c8cc77e68f149a11ff8d95a9ac2e0-818ad728c1a1e54f-00"
+  ]
+} (8873bdb0)
+2022-12-12T00:00:47.3587480+08:00 4000017e-0004-fb00-b63f-84710c7967bb [INF] Http Host: localhost:48444 (49866b44)
+2022-12-12T00:00:47.3646526+08:00 4000017e-0004-fb00-b63f-84710c7967bb [INF] Http ContentType:  (18c420ef)
+2022-12-12T00:00:47.3727472+08:00 4000017e-0004-fb00-b63f-84710c7967bb [INF] Http Method: GET (25017fb9)
+2022-12-12T00:00:47.5006132+08:00 4000017e-0004-fb00-b63f-84710c7967bb [INF] Http Query: [] (57622010)
+2022-12-12T00:00:47.5178285+08:00 4000017e-0004-fb00-b63f-84710c7967bb [INF] Http Body:  (43b197e1)
+2022-12-12T00:00:47.5347088+08:00 4000017e-0004-fb00-b63f-84710c7967bb [INF] Http response info: (59ece11a)
+2022-12-12T00:00:47.5540015+08:00 4000017e-0004-fb00-b63f-84710c7967bb [INF] Http status code: 200 (e8acc928)
+2022-12-12T00:00:47.5683033+08:00 4000017e-0004-fb00-b63f-84710c7967bb [INF] Http Header: {} (c0622202)
+2022-12-12T00:00:47.5765046+08:00 4000017e-0004-fb00-b63f-84710c7967bb [INF] Http ContentType:  (18c420ef)
+2022-12-12T00:00:47.5852371+08:00 4000017e-0004-fb00-b63f-84710c7967bb [INF] Http Method: GET (25017fb9)
+2022-12-12T00:00:47.5960505+08:00 4000017e-0004-fb00-b63f-84710c7967bb [INF] Http Query: [] (57622010)
+2022-12-12T00:00:47.6028005+08:00 4000017e-0004-fb00-b63f-84710c7967bb [INF] Http Body:  (43b197e1)
+2022-12-12T00:00:47.6172844+08:00 4000017e-0004-fb00-b63f-84710c7967bb [INF] Result:  (ddb1a60c)
+2022-12-12T00:00:50.2499331+08:00 4000017e-0004-fb00-b63f-84710c7967bb [INF] "{\r\n  \"Value\": [\r\n    {\r\n      \"ID\": 1,\r\n      \"Name\": \"Andy\",\r\n      \"Age\": 10,\r\n      \"Date\": \"2022-12-12T00:00:50.012645+08:00\"\r\n    },\r\n    {\r\n      \"ID\": 2,\r\n      \"Name\": \"Tom\",\r\n      \"Age\": 20,\r\n      \"Date\": \"2022-12-12T00:00:50.1872823+08:00\"\r\n    },\r\n    {\r\n      \"ID\": 3,\r\n      \"Name\": \"Sam\",\r\n      \"Age\": 18,\r\n      \"Date\": \"2022-12-12T00:00:50.1883069+08:00\"\r\n    }\r\n  ],\r\n  \"Formatters\": [],\r\n  \"ContentTypes\": [],\r\n  \"DeclaredType\": \"System.Collections.Generic.IEnumerable`1[[System.Object, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e\",\r\n  \"StatusCode\": null\r\n}" (36100a8c)
+2022-12-12T00:00:50.2659625+08:00 4000017e-0004-fb00-b63f-84710c7967bb [INF] ClassFilter OnResultExecuting (3fe68e12)
+2022-12-12T00:00:50.3382425+08:00 4000017e-0004-fb00-b63f-84710c7967bb [INF] ClassFilter OnResultExecuted (f65e3622)

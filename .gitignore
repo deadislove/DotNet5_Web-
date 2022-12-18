@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DotNet5_web.OcelotApiGw/bin/Debug/net5.0
+/DotNet5_web.OcelotApiGw/obj
+/DotNet5_web/obj
+/DotNet5_web.API/obj
+/DotNet5_web.API/bin/Debug/net5.0
+/DotNet5_web.Infra/obj
+/DotNet5_web.Infra/bin/Debug/net5.0
+/DotNet5_web.Core/obj
+/DotNet5_web.Core/bin/Debug/net5.0
